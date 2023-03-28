@@ -1,0 +1,27 @@
+
+Input:
+    A CSV file containing a list of user profiles
+        ▪Header: name,surname,age
+        ▪Each line of the file contains one profile
+        ▪name,surname,age
+Output:
+    A csv file containing one single column called “name_surname” of type String
+        ▪name_surname = name+" "+surname
+
+i.e.
+input data:
+name,age,gender
+Paolo,Garza,42
+Luca,Boccia,41
+Maura,Bianchi,16
+
+---
+output:
+name_surname
+Paolo Garza
+Luca Boccia
+Maura Bianchi
+
+Implement two different solutions for this exercise
+    A solution based only on DataFrames
+    A solution based on SQL like queries executed on a temporary table associated with the input data

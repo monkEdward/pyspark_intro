@@ -1,0 +1,21 @@
+Critical dates analysis
+
+Input: a textual csv file containing the daily value of PM10 for a set of sensors
+    ▪Each line of the files has the following format: sensorId,date,PM10 value (μg/m3 )
+
+Output: an HDFS file containing one line for each sensor
+    ▪Each line contains a sensorId and the list of dates with a PM10 values greater than 50 for that sensor
+    ▪Also the sensors which have never been associated with a PM10 values greater than 50 must be included in
+     the result (with an empty set)
+
+i.e.
+s1,2016-01-02,60.2
+s2,2016-01-02,20.4
+s1,2016-01-03,55.5
+s2,2016-01-03,52.5
+s3,2016-01-03,12.5
+
+--
+(s1, [2016-01-02, 2016-01-03])
+(s2, [2016-01-03])
+(s3, [])

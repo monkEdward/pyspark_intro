@@ -1,0 +1,28 @@
+
+Input:
+    A CSV file containing a list of user profiles
+        ▪Header
+            ▪name,age,gender
+        ▪Each line of the file contains the information about one user
+Output:
+    Select the names occurring at least two times and store in the output 
+     folder name and average(age) of the selected names
+    The output does not contain the header line
+
+i.e.
+input data:
+name,age,gender
+Paul,40,male
+Paul,38,male
+David,15,male
+Susan,40,female
+Susan,34,female
+
+---
+output:
+Paul,39
+Susan,37
+
+Implement two different solutions for this exercise
+    A solution based only on DataFrames
+    A solution based on SQL like queries executed on a temporary table associated with the input data

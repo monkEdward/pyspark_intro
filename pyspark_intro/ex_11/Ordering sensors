@@ -1,0 +1,13 @@
+Top-k most critical sensors
+
+Input: A textual csv file containing the daily value of PM10 for a set of sensors
+    ▪Each line of the files has the following format
+sensorId,date,PM10 value (μg/m3)
+
+The value of k
+    ▪It is an argument of the application
+
+Output: An HDFS file containing the top-k critical sensors
+    ▪ The “criticality” of a sensor is given by the number of days with a
+        PM10 values greater than 50
+    ▪ Each line contains the number of critical days and the sensorId

@@ -1,0 +1,9 @@
+66.249.69.97 - - [24/Sep/2014:22:25:44 +0000] "GET http://www.google.com/bot.html”
+66.249.69.97 - - [24/Sep/2014:22:26:44 +0000] "GET http://www.google.com/how.html”
+66.249.69.97 - - [24/Sep/2014:22:28:44 +0000] "GET http://certimetergroup.it/course.html”
+42.543.69.13 - - [13/Sep/2014:22:26:44 +0000] "GET http://www.google.com/how.html”
+71.19.157.179 - - [24/Sep/2014:22:30:12 +0000] "GET http://www.google.com/faq.html”
+66.249.69.97 - - [24/Sep/2014:21:28:44 +0000] "GET http://certimetergroup.it/stage.html”
+71,19.157.179 - - [24/Oct/2014:21:28:44 +0000] "GET http://github.it"
+71,19.157.179 - - [12/Oct/2014:21:28:44 +0000] "GET http://google.it"
+42.543.69.13 - - [13/Oct/2014:22:26:44 +0000] "GET http://www.google.com/how.html”

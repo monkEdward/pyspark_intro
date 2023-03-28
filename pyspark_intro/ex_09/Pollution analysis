@@ -1,0 +1,18 @@
+Pollution analysis
+
+Input: a textual csv file containing the daily value of PM10 for a set of sensors
+    ▪Each line of the files has the following format: sensorId,date,PM10 value (μg/m3 )\n
+
+Output: the sensors with at least 2 readings with a PM10 value greater than the critical threshold 50
+    ▪Store in an HDFS file the sensorIds of the selected sensors and also the number of times each of those sensors is
+     associated with a PM10 value greater than 50
+
+
+i.e
+s1,2016-01-02,60.2
+s2,2016-01-02,20.4
+s1,2016-01-03,55.5
+
+
+---
+(s1,2)

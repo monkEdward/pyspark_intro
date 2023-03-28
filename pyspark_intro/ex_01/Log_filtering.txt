@@ -1,0 +1,15 @@
+Log filtering
+
+Input: a simplified log of a web server (i.e., a textual file)
+▪Each line of the file is associated with a URL request
+
+Output: the lines containing the word “google”
+▪Store the output in an HDFS folder
+
+
+i.e.
+66.249.69.97 - - [24/Sep/2014:22:28:44 +0000] "GET http://dbdmg.polito.it/course.html”
+71.19.157.179 - - [24/Sep/2014:22:30:12 +0000] "GET http://www.google.com/faq.html”
+66.249.69.97 - - [24/Sep/2014:31:28:44 +0000] "GET http://dbdmg.polito.it/thesis.html”
+----
+71.19.157.179 - - [24/Sep/2014:22:30:12 +0000] "GET http://www.google.com/faq.html”

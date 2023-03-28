@@ -1,0 +1,15 @@
+Readings associated with the maximum value
+Input: a collection of (structured) textual csv files containing the daily value of PM10 for a set of sensors
+▪Each line of the files has the following format sensorId,date,PM10 value (μg/m3 )\n
+
+Output: the line(s) associated with the maximum value of PM10
+▪Store the result in an HDFS folder
+
+
+i.e.
+s1,2016-01-02,60.2
+s2,2016-01-02,20.4
+s1,2016-01-03,60.2
+----
+s1,2016-01-02,60.2
+s1,2016-01-03,60.2
